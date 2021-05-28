@@ -8,6 +8,7 @@ class Gitstart < Formula
     depends_on "yq"
     depends_on "gh"
     depends_on "jq"
+    depends_on "bash"
   
     def install
       bin.install 'gitstart'
