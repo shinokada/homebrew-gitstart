@@ -1,23 +1,18 @@
-# homebrew-gitstart 
+# Shinokada Gitstart
 
-## Overview
+## How do I install these formulae?
 
+`brew install shinokada/gitstart/<formula>`
 
-## Requirement
+Or `brew tap shinokada/gitstart` and then `brew install <formula>`.
 
+Or, in a `brew bundle` `Brewfile`:
 
-## Usage
+```ruby
+tap "shinokada/gitstart"
+brew "<formula>"
+```
 
+## Documentation
 
-## Features
-
-
-## Reference
-
-
-## Author
-
-
-## Licence
-
-Please see license.txt.
+`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
