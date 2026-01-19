@@ -2,15 +2,15 @@
 
 ## How do I install these formulae?
 
-`brew install shinokada/gitstart/<formula>`
+`brew install shinokada/gitstart/gitstart`
 
-Or `brew tap shinokada/gitstart` and then `brew install <formula>`.
+Or `brew tap shinokada/gitstart` and then `brew install gitstart`.
 
 Or, in a `brew bundle` `Brewfile`:
 
 ```ruby
 tap "shinokada/gitstart"
-brew "<formula>"
+brew "gitstart"
 ```
 
 ## Documentation
