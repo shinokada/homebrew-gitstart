@@ -5,21 +5,21 @@
 class Gitstart < Formula
   desc "A CLI tool for git project initialization."
   homepage "https://github.com/shinokada/gitstart"
-  version "1.0.4"
+  version "1.0.5"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/shinokada/gitstart/releases/download/v1.0.4/gitstart_1.0.4_darwin_amd64.tar.gz"
-      sha256 "c30d9f1d7dbfda715cd35339798e305b858336d37b8d967f27ab09dd897eb85e"
+      url "https://github.com/shinokada/gitstart/releases/download/v1.0.5/gitstart_1.0.5_darwin_amd64.tar.gz"
+      sha256 "4ad990c9747063f6688d817a9404906522950debdb7991d1bd1a60708e327ed9"
 
       define_method(:install) do
         bin.install "gitstart"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/shinokada/gitstart/releases/download/v1.0.4/gitstart_1.0.4_darwin_arm64.tar.gz"
-      sha256 "8184d177adfa5169e09810b2bb00edb35ea3563073e62c7fabe00ebec80a98e6"
+      url "https://github.com/shinokada/gitstart/releases/download/v1.0.5/gitstart_1.0.5_darwin_arm64.tar.gz"
+      sha256 "bd8cef4422aaae4c3a46d4e09f2c503138009eeb1c2451c0db7a05f16aded51c"
 
       define_method(:install) do
         bin.install "gitstart"
@@ -29,15 +29,15 @@ class Gitstart < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/shinokada/gitstart/releases/download/v1.0.4/gitstart_1.0.4_linux_amd64.tar.gz"
-      sha256 "e6ca19258740d87d4cdc2a7ab3fec2db505d621f14a85e8f7bf632958fb5fcb1"
+      url "https://github.com/shinokada/gitstart/releases/download/v1.0.5/gitstart_1.0.5_linux_amd64.tar.gz"
+      sha256 "5d35f5eb568ce892414c12b533631e3c3431f00e1911e83e5e3d2a58842f74a9"
       define_method(:install) do
         bin.install "gitstart"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/shinokada/gitstart/releases/download/v1.0.4/gitstart_1.0.4_linux_arm64.tar.gz"
-      sha256 "8bc286d3396fa0ea9b475c33c20998352360147727455bf09936b1da86bd4190"
+      url "https://github.com/shinokada/gitstart/releases/download/v1.0.5/gitstart_1.0.5_linux_arm64.tar.gz"
+      sha256 "c27fb087afdf795071e44afe019bf76187ba25c454c91dcf47631f4a82d3948c"
       define_method(:install) do
         bin.install "gitstart"
       end
